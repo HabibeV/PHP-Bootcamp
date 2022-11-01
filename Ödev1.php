@@ -1,9 +1,10 @@
 <?php
 
-$agil=5;
-$kapasite=210;
-$koyun=131;
+$agil=15;
+$kapasite=1600;
+$koyun=1510;
 $agilKapasite = $kapasite/$agil;
+$agilKapasite = round($agilKapasite);
 
 echo "Toplam Ağıl: $agil <br> Toplam Kapasite : $kapasite <br> Toplam Koyun : $koyun <br><br>";
 
@@ -30,4 +31,3 @@ if ($koyun>0){
 echo "<br>Dışarıda Kalan : $koyun Koyun";
 }
 ?>
-
