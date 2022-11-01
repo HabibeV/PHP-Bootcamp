@@ -4,7 +4,7 @@
 
 // BUTONA BASILDIĞINDA KODLAR DEVREYE GİRERSE HATALAR ORTADAN KALKACAK. FAKAT O KODLAMAYI DAHA BİLMEDİĞİMDEN HATALARI GÖTÜREMEDİM.
 
-echo "<form method='post' action='Ödev1.php' > Ağıl sayısı : <input type='text' name='agil'><br><br>
+echo "<form method='post' action='' > Ağıl sayısı : <input type='text' name='agil'><br><br>
     Kapasite :  <input type='text' name='kapasite'><br><br>
     Koyun :  <input type='text' name='koyun'><br><br>
     <input type='submit' value='hesapla' name='hesapla' > </form>"
