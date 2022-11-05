@@ -1,23 +1,28 @@
 <?php
 
-$agil=15;
-$kapasite=1600;
-$koyun=1510;
-$agilKapasite = $kapasite/$agil;
-$agilKapasite = round($agilKapasite);
 
-echo "Toplam Ağıl: $agil <br> Toplam Kapasite : $kapasite <br> Toplam Koyun : $koyun <br><br>";
 
-for ($i=$agil ; $i>=1 ; $i--) // Ağıl sayısı.
+$ciftlik = array(
+    "agil"=>15,
+    "kapasite"=>30,
+    "koyun"=>400
+
+);
+$agilKapasite =  $ciftlik["kapasite"]*$ciftlik["agil"];
+$koyun=$ciftlik["koyun"];
+
+
+echo "Toplam Ağıl:".$ciftlik["agil"]."<br> Toplam Kapasite : $agilKapasite <br> Toplam Koyun :".$ciftlik["koyun"]." <br><br>";
+
+for ($i=$ciftlik["agil"] ; $i>=1 ; $i--) // Ağıl sayısı.
 {
-    
-    if ($koyun>=$agilKapasite){
-        echo "$i. Ağıl : $agilKapasite Koyun <br>";
-        $koyun= $koyun- $agilKapasite;
+    if ($koyun>=$ciftlik["kapasite"]){
+        echo "$i. Ağıl :".$ciftlik["kapasite"]." Koyun <br>";
+        $koyun= $koyun- $ciftlik["kapasite"];
     }
     elseif ($koyun>=0){
         echo "$i. Ağıl : $koyun Koyun <br>";
-        $koyun= $koyun- $agilKapasite;
+        $koyun= $koyun-  $ciftlik["kapasite"];
     }
 
     else{
