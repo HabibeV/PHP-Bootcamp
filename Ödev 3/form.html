@@ -3,11 +3,7 @@
 <head>
 </head>
 <body >
-<?php 
 
-
-
-?>
 <table   width="35%"  align="center"  >
     <form action="baglanti.php" method="post"  >
         <tr >   <td align="center" >Adınız Soyadınız : </td>     </tr>
