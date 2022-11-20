@@ -18,7 +18,7 @@
         }
         elseif ($koyun>=0){
             echo "$i. Ağıl : $koyun Koyun <br>";
-            $koyun= $koyun-  $ciftlik["kapasite"];
+            $koyun= $koyun-$ciftlik["kapasite"];
         }
         else{  
             echo "$i. Ağıl : 0 Koyun <br>";
