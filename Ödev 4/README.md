@@ -1,7 +1,7 @@
-# Class Kullanarak Veriyi Kontrol Ederek Kaydetme
+# Class Kullanıp Veriyi Kontrol Ederek Kaydetme
 Bu ödevde yaptıklarım ;<br>
 -Bir form dosyası oluşturdum <br>
--Girilen verileri veritabanına kaydetmek için PDO bağlantısını kurdum.<br>
+-Girilen verileri veritabanına kaydetmek için PDO kulanarak bağlantı dosyası oluşturdum.<br>
 -Verileri kaydederken Tc kimlik numarasını belirli koşullara göre kontrol edip geçerliliğini durum kolonuna kaydettim.<br>
 -Tc kimlik geçerlilik koşulları şunlar;<br>
   (1) TC kimlik numaraları 11 hanelidir ve her hanesi rakamsal değerdedir.<br>
