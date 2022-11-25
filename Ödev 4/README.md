@@ -3,7 +3,7 @@ Bu ödevde yaptıklarım ;<br>
 -Bir form dosyası oluşturdum <br>
 -Girilen verileri veritabanına kaydetmek için PDO bağlantısını kurdum.<br>
 -Verileri kaydederken Tc kimlik numarasını belirli koşullara göre kontrol edip geçerliliğini durum kolonuna kaydettim.<br>
--Kayıt için koşullar şunlar;<br>
+-Tc kimlik geçerlilik koşulları şunlar;<br>
   (1) TC kimlik numaraları 11 hanelidir ve her hanesi rakamsal değerdedir.<br>
   (2) İlk hane hiçbir zaman 0 olamaz.<br>
   (3) 1.3.5.7. ve 9. hanelerin toplamının 7 ile çarpımından, 2. 4. 6. ve 8, hanelerin toplamı çıkartıldığındageriye kalan sayının 10'a göre modu 10. haneye eşittir.<br> 
