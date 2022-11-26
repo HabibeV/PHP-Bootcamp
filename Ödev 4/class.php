@@ -27,7 +27,7 @@
             $this->esitle = $toplam % 10;
 
             //Koşullar
-            if(filter_var($tc, FILTER_VALIDATE_INT)  && $tc[0]=!0){
+            if(filter_var($tc, FILTER_VALIDATE_INT)  && $tc[0]!=0){
                 if($parca[9]== $this->sonuc && $parca[10]== $this->esitle){
                     $cikti = "TC Kimlik Geçerli";}
                 else{
