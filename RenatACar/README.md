@@ -18,4 +18,5 @@
 - Veritabanından kayıt silme <br>
 
 <h2>📌Projem;</h2> 
+
 ![rec-screen-_2_](https://user-images.githubusercontent.com/110525328/205392746-44f8c2a2-6d90-4628-9079-0ee3d4b818ac.gif)
