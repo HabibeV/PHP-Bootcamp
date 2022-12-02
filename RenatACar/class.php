@@ -173,7 +173,7 @@ public function arama(){
                 break;
             
             default:
-                echo "cıks";
+                echo header("Location: liste.php'");
                 break;
         }
     }
