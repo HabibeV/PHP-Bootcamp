@@ -13,5 +13,6 @@
 - Session <br>
 - Dosya yükleme <br>
 - PDO ile veritabanı bağlantısı <br>
-- Veritabanına kayıt <br>
+- Veritabanına kayıt ekleme <br>
 - Veritabanında sorgu <br>
+- Veritabanından kayıt silme <br>
