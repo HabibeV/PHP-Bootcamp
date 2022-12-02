@@ -7,10 +7,11 @@
 - Araba kaydı yapılırken seçilen resim de img dosyasına çekiliyor. <br>
 - Csv dosyasını hazırlayıp indirmeyi yaptım fakat dosya içi tablolama pek başarılı sayılmaz. Bunun için ek olarak araştırma yaptım ve kodları yorum satırı olarak bıraktım. <br>
 
-<h2>📌Proje içerisinde kullandıklarım;</h2> <br>
+<h2>📌Proje içerisinde kullandıklarım;</h2> 
 - Dosya işlemleri <br>
 - Class yapısı <br>
 - Session <br>
 - Dosya yükleme <br>
-- Veri tabanına kayıt <br>
-- Veri tabanında sorgu <br>
+- PDO ile veritabanı bağlantısı <br>
+- Veritabanına kayıt <br>
+- Veritabanında sorgu <br>
