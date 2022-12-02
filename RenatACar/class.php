@@ -49,7 +49,7 @@
    if($kayitsay>0){
    $update = $this->baglan->query("update liste set marka='$marka', model='$model' ,yil='$yil' ,
    plaka='$plaka', resimKod='$resim' where id='$id'");
-   $ekle= $update->execute;
+   $ekle= $update->execute();
    $sonuc = move_uploaded_file($_FILES["img"]["tmp_name"],  $hedef);
    $cikti= "<script type='text/javascript'>alert('Başarılı : Kayıt Güncellendi ! ');
        window.top.location = 'liste.php' </script>";
@@ -121,7 +121,6 @@ public function arabaSil($id){
 
 // çıkış fonksiyonu 
 public function cikis(){
-    session_start();
     unset($_SESSION);
      session_destroy();
      setcookie("kullanici"," ", time() - 1); 
@@ -130,7 +129,7 @@ public function cikis(){
 return $cikis;
 }
 
-
+//arama fonksiyonu
 public function arama(){
     if($_POST){
         extract($_POST);
@@ -164,7 +163,7 @@ public function arama(){
                   </div>
                 </div>
                 <div>
-                  <p align='center'><a href='aracdüzenle.php?id=".$satir["id"]."'><input type='button' formaction='aracdüzenle.php' class='btn btn-primary btn-sm' value='Düzenle'></a> &nbsp &nbsp&nbsp<a href='sil.php?id=".$satir["id"]."'><input type='button' name='sil' formaction='sil.php'  class='btn btn-primary btn-sm' value='Sil'   ></a></p>
+                  <p align='center'><a href='aracduzenle.php?id=".$satir["id"]."'><input type='button' formaction='aracdüzenle.php' class='btn btn-primary btn-sm' value='Düzenle'></a> &nbsp &nbsp&nbsp<a href='islemler.php?islem=arabaSil&&id=".$satir["id"]."'><input type='button' name='sil' formaction='sil.php'  class='btn btn-primary btn-sm' value='Sil'   ></a></p>
                 </div>
               </div>
 
