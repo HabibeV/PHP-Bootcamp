@@ -1,5 +1,5 @@
 # Araç Kiralama Yönetim Paneli 🚗
-<h1>📌Bu projede yaptıklarım ;</h1>
+<h3>📌Bu projede yaptıklarım ;</h3>
 - ilk olarak her buton için ayrı birer php kodlama sayfası oluşturdum. <br>
 - Oluşturduğum dosyaların çalıştıklarına emin olduktan sonra class yapısı içerisine çektim. <br>
 - Arama çubuğunda ajax kullandım. <br>
